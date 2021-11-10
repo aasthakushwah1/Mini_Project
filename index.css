@@ -6,7 +6,7 @@
 .hero{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.unwomen.org/-/media/headquarters/images/sections/news/stories/2019/11/hbarczyk_un_mainimage_finalsend.jpg?la=en&vs=4255");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://th.bing.com/th/id/R.3d168901be1abc304d7de4d4cdf7460b?rik=hV4xvn%2flz60RcQ&riu=http%3a%2f%2fcdn.firespring.com%2fimages%2f8025a498-6c3b-44f0-8aaf-bbc0e12bc9bb.jpg&ehk=jLPmDheDsi4oZ5j4WbipdqggHyUyYl39DcC9cHc%2brHU%3d&risl=&pid=ImgRaw&r=0");
     background-position: center;
     background-size: cover;
     position: absolute;
