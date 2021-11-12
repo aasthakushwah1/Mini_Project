@@ -1,58 +1,112 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/index.css">
-  <title class="">Login Form</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <title>HomePage</title>
 </head>
 
 <body>
-  <div class="hero">
-    <div class="form-box">
-      <div class="button-box">
-        <div id="btn"></div>
-        <button type="button" class="toggle-btn" onclick="login()"><strong>Login</strong></button>
-        <button type="button" class="toggle-btn" onclick="register()"><strong>Register</strong></button>
-      </div>
-      <div class="social-icons">
-        <img src="./assets/images/fb.png" alt="Facebook icon">
-        <img src="./assets/images/gp.png" alt="Google icon">
-        <img src="./assets/images/tw.png" alt="Tweeter icon">
-      </div>
-      <form id="login" class="input-group">
-        <input type="text" class="input-field" placeholder="Enter User Id" required>
-        <input type="password" class="input-field" placeholder="Enter password" required>
-        <input type="checkbox" class="check-box"><span>Remember password</span>
-        <button type="submit" class="submit-btn"><strong>Log In</strong></button>
-      </form>
-      <form id="register" class="input-group">
-        <input type="text" class="input-field" placeholder="Enter User Id" required>
-        <input type="email" class="input-field" placeholder="Enter email Id" required>
-        <input type="password" class="input-field" placeholder="Enter password" required>
-        <input type="checkbox" class="check-box"><span>I agree to the terms and conditions.</span>
-        <button type="submit" class="submit-btn"><strong>Register</strong></button>
-      </form>
+
+  <div class="back">
+    <nav>
+      <div class="logo"><img src="./assets/images/logoo.png" alt=""></div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a class="active" href="#">HOME</a></li>
+        <li><a href="#aboutus">ABOUT US</a></li>
+        <li><a href="#">TRAVEL SAFETY</a></li>
+        <li><a href="#">DOMESTIC VIOLENCE</a></li>
+        <li><a href="#">SELF DEFENCE</a></li>
+        <li><a href="#contactus">CONTACT US</a></li>
+      </ul>
+    </nav>
+    <div class="mid">
+      <h1>WELCOME TO SAFETY +
+        <pre>
+          <button><a href="./LoginRegister.html">Login/Register</a></button>
+        </pre>
+      </h1>
+      
     </div>
 
+
+
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2 id="aboutus">About us</h2>
+          <div class="content">
+            <p>Safety + is a Safety and Security-based Website for Women. One of the main applications is when a Women would be travelling from one place to another, this website will ensure their safety by using real-time location.This website will also contain self-defense tutorials for every age group and will also make sure to reach out to those Women who are suffering from domestic voilence and help them through various means. </p>
+            <div class="social">
+              <a href="https://facebook.com"><span class="fab fa-facebook-f"></span></a>
+              <a href="https://twitter.com"><span class="fab fa-twitter"></span></a>
+              <a href="https://instagram.com"><span class="fab fa-instagram"></span></a>
+              <a href="https://youtube.com"><span class="fab fa-youtube"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="center box">
+          <h2>Address</h2>
+          <div id="contactus" class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Gopala 1G,202,Omaxe Eternity,Vrindawan,Mathura</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">+91-9636990083</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">imaalokd7@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h2>Contact us</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Your Email *</div>
+                <input type="email" required>
+              </div>
+              <div class="msg">
+                <div class="text">Message *</div>
+                <textarea rows="2" cols="25" required></textarea>
+               
+              </div>
+              <div class="btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <center>
+          <span class="credit">Created By <a href="https://www.safetyplus.com">Aalok Yadav</a> | </span>
+          <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
+        </center>
+      </div>
+    </footer>
+
   </div>
-  <script>
-    let x = document.getElementById("login");
-    let y = document.getElementById("register");
-    let z = document.getElementById("btn");
 
-    function register() {
-      x.style.left = "-400px"
-      y.style.left = "50px"
-      z.style.left = "111px"
-    }
 
-    function login() {
-      x.style.left = "50px"
-      y.style.left = "450px"
-      z.style.left = "0"
-    }
-  </script>
 </body>
 
 </html>
