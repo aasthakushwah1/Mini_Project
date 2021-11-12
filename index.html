@@ -1,10 +1,12 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/index.css">
   <title class="">Login Form</title>
 </head>
+
 <body>
   <div class="hero">
     <div class="form-box">
@@ -24,7 +26,7 @@
         <input type="checkbox" class="check-box"><span>Remember password</span>
         <button type="submit" class="submit-btn"><strong>Log In</strong></button>
       </form>
-      <form id="register"class="input-group">
+      <form id="register" class="input-group">
         <input type="text" class="input-field" placeholder="Enter User Id" required>
         <input type="email" class="input-field" placeholder="Enter email Id" required>
         <input type="password" class="input-field" placeholder="Enter password" required>
@@ -34,22 +36,23 @@
     </div>
 
   </div>
-    <script>
-      let x=document.getElementById("login");
-      let y=document.getElementById("register");
-      let z=document.getElementById("btn");
+  <script>
+    let x = document.getElementById("login");
+    let y = document.getElementById("register");
+    let z = document.getElementById("btn");
 
-      function register(){
-        x.style.left = "-400px"
-        y.style.left = "50px"
-        z.style.left = "111px"
-      }
+    function register() {
+      x.style.left = "-400px"
+      y.style.left = "50px"
+      z.style.left = "111px"
+    }
 
-      function login(){
-        x.style.left = "50px"
-        y.style.left = "450px"
-        z.style.left = "0"
-      }
-    </script>
+    function login() {
+      x.style.left = "50px"
+      y.style.left = "450px"
+      z.style.left = "0"
+    }
+  </script>
 </body>
+
 </html>
