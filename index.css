@@ -11,10 +11,7 @@
     background-image:url("./assets/images/safetyplusimage.jpg");
     background-position: center;
     background-size: cover;
-    position: absolute;
-    
-    
-   
+    position: absolute;  
 }
 
 
@@ -136,6 +133,7 @@ font-weight: 600;
 color:white;
 margin: 0;
 font-style: oblique;
+
 }
 div .mid pre button{
   position:absolute;
@@ -165,7 +163,7 @@ div .mid pre button:hover{
 
 
   footer{
- margin-top:640px;
+ margin-top:583px;
     position: relative;
     bottom: 0px;
     width: 100%;
