@@ -110,7 +110,7 @@ nav .menu-btn i {
     transition: all 0.3s ease;
   }
   #click:checked ~ ul {
-    background-image: url(./image/menu-background.jpg);
+    background-image: url(./assets/images/shutterstock_359492192.jpg) ;
     background-position-x: right;
     background-repeat: no-repeat;
     left: 0%;

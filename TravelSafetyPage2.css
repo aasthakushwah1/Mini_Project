@@ -154,7 +154,7 @@ button {
     transition: all 0.3s ease;
   }
   #click:checked ~ ul {
-    background-image: url(./safetyplusimage.jpg);
+    background-image: url(./assets/images/shutterstock_359492192.jpg) ;
     background-size: 1130px;
     background-position-x: right;
     background-repeat: no-repeat;
